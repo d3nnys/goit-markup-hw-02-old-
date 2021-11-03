@@ -21,14 +21,31 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
+/* .list {
   list-style: none;
+} */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* logo */
 
 .logo {
   color: var(--accent-color);
+
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-s {
+  color: black;
 
   font-family: Raleway, cursive;
   font-weight: 700;
@@ -44,7 +61,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -60,7 +76,6 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 
 .site-info .link:hover,
@@ -146,18 +161,44 @@ body {
 
 /* footer */
 
-.footer-link {
+.footer-s {
+  color: var(--primary-white-color);
+
+  font-family: Raleway, cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer-link .site-info {
   color: var(--primary-white-color);
 
   line-height: 1.71;
-  text-decoration: none;
 }
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
 
   line-height: 1.71;
-  text-decoration: none;
+}
+
+.footer-info:hover,
+.footer-link:hover,
+.footer-info:focus,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+
+.f-white-text .link {
+  color: var(--primary-white-color);
+
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.f-white-text .link:hover,
+.f-white-text .link:focus {
+  color: var(--accent-color);
 }
 
 /* кнопки портфолио */
@@ -198,5 +239,4 @@ body {
 }
 
 .p-list {
-  text-decoration: none;
 }
