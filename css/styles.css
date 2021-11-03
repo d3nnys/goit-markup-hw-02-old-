@@ -141,6 +141,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* footer */
@@ -161,17 +162,6 @@ body {
 
 /* кнопки портфолио */
 
-.p-main-button {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  cursor: pointer;
-}
-
 .p-button {
   color: var(--title-text-color);
   background-color: #f5f4fa;
@@ -181,6 +171,12 @@ body {
   line-height: 1.62;
   text-align: center;
   cursor: pointer;
+}
+
+.p-button:hover,
+.p-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /* работы портфолио */
