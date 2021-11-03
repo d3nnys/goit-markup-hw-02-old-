@@ -58,6 +58,7 @@ a {
 .site-nav a {
   color: var(--title-text-color);
 
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -73,6 +74,7 @@ a {
 .site-info a {
   color: var(--secondary-text-color);
 
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -173,12 +175,14 @@ a {
 .footer-link .site-info {
   color: var(--primary-white-color);
 
+  font-style: normal;
   line-height: 1.71;
 }
 
 .footer-info {
   color: rgba(255, 255, 255, 0.6);
 
+  font-style: normal;
   line-height: 1.71;
 }
 
